@@ -15,12 +15,12 @@ export default {
             configIndex: {
                 title: "首页",
                 left: {
-                    leftIcon: "back",
-                    leftText: "返回",
+                    leftIcon: "",
+                    leftText: "",
                     isShowLeftIcon: false
                 },
                 right: {
-                    rightIcon: "more",
+                    rightIcon: "",
                     isShowRightIcon: false
                 }
             }

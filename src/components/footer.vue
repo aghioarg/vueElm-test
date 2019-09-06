@@ -3,19 +3,19 @@
         <div class="footGuide">
             <router-link to="/"
                          exact>
-                <img src="../../static/images/foot-ico.png">
+                <img src="../../static/images/foot-index.png">
                 首页
             </router-link>
             <router-link to="/search">
-                <img src="../../static/images/foot-ico.png">
+                <img src="../../static/images/foot-search.png">
                 搜索
             </router-link>
             <router-link to="/order">
-                <img src="../../static/images/foot-ico.png">
+                <img src="../../static/images/foot-order.png">
                 订单
             </router-link>
             <router-link to="myself">
-                <img src="../../static/images/foot-ico.png">
+                <img src="../../static/images/foot-myself.png">
                 我的
             </router-link>
         </div>
@@ -25,16 +25,14 @@
 <script>
 export default {
     data() {
-        return {
-            selectedFoot: "index"
-        };
+        return {};
     }
 };
 </script>
 
 <style scoped>
 .router-link-active {
-    color: #3190e8;
+    color: #1296db;
 }
 .footGuide {
     background-color: #fff;

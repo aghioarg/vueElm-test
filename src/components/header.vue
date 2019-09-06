@@ -37,4 +37,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.mint-header {
+    background-color: #1296db;
+}
+</style>
