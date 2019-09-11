@@ -1,9 +1,10 @@
 <template>
     <div>
         <mt-header :title="config.title">
-            <router-link to="/"
+            <router-link to=""
                          slot="left">
                 <mt-button :icon="config.left.leftIcon"
+                           @click.native="$router.back(-1)"
                            v-if="config.left.isShowLeftIcon">{{config.left.leftText}}</mt-button>
             </router-link>
             <mt-button :icon="config.right.rightIcon"
