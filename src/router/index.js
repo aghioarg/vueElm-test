@@ -51,9 +51,9 @@ export default new Router({
       name: 'orderList',
       component: () => import('@/pages/setting/orderList.vue')
     },
-    // {
-    //   path: '*',
-    //   redirect: '/'
-    // }
+    {
+      path: '*',
+      redirect: '/'
+    }
   ]
 })
