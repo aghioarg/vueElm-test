@@ -1,7 +1,9 @@
 <template>
     <div>
         <elm-header :config="configIndex"></elm-header>
-        <div>修改内容11111修改内容11111修改内容11111修改内容11111修改内容11111修改内容11111修改内容11111</div>
+        <div>十斤西红柿十斤西红柿十斤西红柿十斤西红柿十斤西红柿送到沈阳市和平区</div>
+        <div>￥100</div>
+        <div>queryId:{{queryId}}</div>
     </div>
 </template>
 <script>
@@ -23,6 +25,11 @@ export default {
                 }
             }
         };
+    },
+    computed: {
+        queryId() {
+            return this.$route.query.queryId;
+        }
     }
 };
 </script>

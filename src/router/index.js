@@ -29,27 +29,27 @@ export default new Router({
       path: '/setting',
       name: 'setting',
       component: () => import('@/pages/setting/setting.vue'),
-      children: [{
-          path: 'setInfo01',
-          name: 'setInfo01',
-          component: () => import('@/pages/setting/setInfo/setInfo01.vue')
-        },
-        {
-          path: 'setInfo02',
-          name: 'setInfo02',
-          component: () => import('@/pages/setting/setInfo/setInfo02.vue')
-        },
-        {
-          path: 'setInfo03',
-          name: 'setInfo03',
-          component: () => import('@/pages/setting/setInfo/setInfo03.vue')
-        },
-      ]
+
     },
     {
-      path: '/password',
-      name: 'password',
-      component: () => import('@/pages/setting/password.vue')
+      path: '/setting/setInfo/setInfo01',
+      name: 'setInfo01',
+      component: () => import('@/pages/setting/setInfo/setInfo01.vue')
+    },
+    {
+      path: '/setting/setInfo/setInfo02',
+      name: 'setInfo02',
+      component: () => import('@/pages/setting/setInfo/setInfo02.vue')
+    },
+    {
+      path: '/setting/setInfo/setInfo03',
+      name: 'setInfo03',
+      component: () => import('@/pages/setting/setInfo/setInfo03.vue')
+    },
+    {
+      path: '/orderList',
+      name: 'orderList',
+      component: () => import('@/pages/setting/orderList.vue')
     },
     // {
     //   path: '*',

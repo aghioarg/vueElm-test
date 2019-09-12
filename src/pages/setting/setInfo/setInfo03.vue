@@ -1,7 +1,8 @@
 <template>
     <div>
         <elm-header :config="configIndex"></elm-header>
-        <div>修改内容333333修改内容333333修改内容333333修改内容333333修改内容333333修改内容333333修改内容333333</div>
+        <div>十斤牛肉 牛腩</div>
+        <div>￥200</div>
     </div>
 </template>
 <script>

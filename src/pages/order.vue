@@ -17,9 +17,9 @@ export default {
             configOrder: {
                 title: "订单",
                 left: {
-                    leftIcon: "back",
+                    leftIcon: "",
                     leftText: "",
-                    isShowLeftIcon: true
+                    isShowLeftIcon: false
                 },
                 right: {
                     rightIcon: "",

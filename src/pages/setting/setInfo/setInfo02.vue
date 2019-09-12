@@ -1,7 +1,9 @@
 <template>
     <div>
         <elm-header :config="configIndex"></elm-header>
-        <div>修改内容2222修改内容222222修改内容222222修改内容222222修改内容222222修改内容222222修改内容222222修改内容222222</div>
+        <div>2222西红柿牛腩 大份</div>
+        <div>￥68</div>
+        <div>paramsId:{{paramsId}}</div>
     </div>
 </template>
 <script>
@@ -23,6 +25,11 @@ export default {
                 }
             }
         };
+    },
+    computed: {
+        paramsId() {
+            return this.$route.params.paramsId;
+        }
     }
 };
 </script>

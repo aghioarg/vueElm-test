@@ -25,7 +25,7 @@ export default {
                     left: {
                         leftIcon: "back",
                         leftText: "返回",
-                        isShowLeftIcon: true
+                        isShowLeftIcon: false
                     },
                     right: {
                         rightIcon: "more",

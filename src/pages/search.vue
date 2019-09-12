@@ -16,9 +16,9 @@ export default {
             configSearch: {
                 title: "搜索",
                 left: {
-                    leftIcon: "back",
+                    leftIcon: "",
                     leftText: "",
-                    isShowLeftIcon: true
+                    isShowLeftIcon: false
                 },
                 right: {
                     rightIcon: "",

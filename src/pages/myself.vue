@@ -2,12 +2,10 @@
     <div>
         <elm-header :config="configMyself"></elm-header>
         <div class="gotoSet">
-            <router-link to="/setting">我的设置</router-link>
+            <router-link to="/orderList">我的订单</router-link>
         </div>
         <div class="gotoSet">
-            <router-link to="/password">修改密码</router-link>
-        </div>
-        <div>{{username}}
+            <router-link to="/setting">设置</router-link>
         </div>
         <elm-footer></elm-footer>
     </div>
@@ -22,9 +20,9 @@ export default {
             configMyself: {
                 title: "我的",
                 left: {
-                    leftIcon: "back",
+                    leftIcon: "",
                     leftText: "",
-                    isShowLeftIcon: true
+                    isShowLeftIcon: false
                 },
                 right: {
                     rightIcon: "",
